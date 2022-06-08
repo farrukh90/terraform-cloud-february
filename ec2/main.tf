@@ -20,5 +20,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
+    Changed_by = "Tom"
   }
 }

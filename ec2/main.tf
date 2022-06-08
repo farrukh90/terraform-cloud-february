@@ -22,5 +22,6 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
     Changed_by = "Tom"
     Created_by = "lisa"
+    Username = "bill"
   }
 }
